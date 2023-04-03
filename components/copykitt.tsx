@@ -20,7 +20,7 @@ const CopyKitt: React.FC = () => {
     if (value == "ytUrl") {
       console.log(value);
 
-      const ENDPOINT: string = "http://localhost:8080/youtubeURL";
+      const ENDPOINT: string = "https://condense-ai-backend-4qnl.onrender.com";
 
       console.log("Submitting: " + prompt);
       setIsLoading(true);

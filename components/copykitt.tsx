@@ -54,7 +54,7 @@ const CopyKitt: React.FC = () => {
       const data = new FormData();
       data.append("audio", file, file.name);
 
-      const ENDPOINT: string = "http://localhost:8080/audio";
+      const ENDPOINT: string = "https://condense-ai-backend-4qnl.onrender.com/audio";
 
       console.log("Submitting: " + ":audio");
       setIsLoading(true);
@@ -90,7 +90,7 @@ const CopyKitt: React.FC = () => {
       const data = new FormData();
       data.append("pdf", file, file.name);
 
-      const ENDPOINT: string = "http://localhost:8080/pdf";
+      const ENDPOINT: string = "https://condense-ai-backend-4qnl.onrender.com/pdf";
 
       console.log("Submitting: " + ":pdf");
       setIsLoading(true);
